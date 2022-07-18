@@ -72,6 +72,7 @@
     <skipDeploy>false</skipDeploy>
     <skipJavadoc>false</skipJavadoc>
     <skipCheckstyle>true</skipCheckstyle>
+    <maven.test.skip>true</maven.test.skip>
     <slf4j.version>1.7.36</slf4j.version>
     <c3p0.version>0.9.5.5</c3p0.version>
     <hikaricp.version>3.4.5</hikaricp.version>
