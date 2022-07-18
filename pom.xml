@@ -434,16 +434,10 @@
 
   <distributionManagement>
     <repository>
-      <id>terracotta-staging</id>
-      <name>Terracotta Staging Repository</name>
-      <url>${terracotta-staging-url}</url>
+      <id>github</id>
+      <name>GitHub arvato-systems-jacs Apache Maven Packages</name>
+      <url>https://maven.pkg.github.com/arvato-systems-jacs/quartz</url>
     </repository>
-    <snapshotRepository>
-      <id>terracotta-snapshots</id>
-      <uniqueVersion>false</uniqueVersion>
-      <name>Terracotta Snapshots Repository</name>
-      <url>${terracotta-snapshots-url}</url>
-    </snapshotRepository>
   </distributionManagement>
 
   <repositories>
