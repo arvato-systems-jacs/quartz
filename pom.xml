@@ -47,7 +47,7 @@
     </developer>
   </developers>  
   <modules>
-    <module>checkstyle</module>
+    <!--<module>checkstyle</module>-->
     <module>quartz-core</module>
     <module>quartz-commonj</module>
     <module>quartz-jboss</module>
@@ -69,7 +69,7 @@
 
     <skipDeploy>false</skipDeploy>
     <skipJavadoc>false</skipJavadoc>
-    <skipCheckstyle>false</skipCheckstyle>
+    <skipCheckstyle>true</skipCheckstyle>
     <slf4j.version>1.7.36</slf4j.version>
     <c3p0.version>0.9.5.5</c3p0.version>
     <hikaricp.version>3.4.5</hikaricp.version>
