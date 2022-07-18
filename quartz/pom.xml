@@ -149,7 +149,7 @@
               </excludes>
             </filter>		  
           </filters>    
-          <createSourcesJar>true</createSourcesJar>
+          <createSourcesJar>false</createSourcesJar>
           <useBaseVersion>true</useBaseVersion>
           <promoteTransitiveDependencies>true</promoteTransitiveDependencies>
           <dependencyReducedPomLocation>${project.build.directory}/dependency-reduced-pom.xml</dependencyReducedPomLocation>           
